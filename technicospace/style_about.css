@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: border-box ;
+  font-family: Times New Roman;
+}
+
+body{
+  display: flex;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(home.jpg);
+  min-height: 100vh;
+}
+
+.section{
+  width: 100%;
+  }
+
+.container{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.image-section{
+  float: left;
+  width: 40%; 
+}
+
+.image-section img{
+  width: 100%;
+  height: auto;
+}
+
+.content-section{
+  float: right;
+  width: 55%;
+}
+
+.content-section .title{
+  text-decoration: uppercase;
+  font-size: 28px;
+}
+
+.content-section h2{
+  color:#fff;
+}
+
+.content-section h3{
+  margin-top: 20px;
+  color: #00a2e8;
+  font-size: 21px;
+}
+
+.content-section .Heading3{
+  color: #fff;
+}
+
+.content-section p{
+  margin-top: 10px;
+  font-family: Times New Roman;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #fff;
+}
+
+#btn{
+  width: 240px;
+  height: 40px;
+  background:rgb(255, 255, 255);
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #000;
+  transition: 0.4s ease;
+}
+
+#btn:hover{
+  background: rgb(130, 122, 122);
+  color: rgb(255, 255, 255);
+}
+
+#btn a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+#invisible-text{
+  display: none;
+}
